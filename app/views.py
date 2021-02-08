@@ -32,7 +32,7 @@ def format_date_joined():
 
 @app.route('/profile')
 def profile():
-    return render_template('profile.html', pic = url_for('static', filename='index.jpeg'), date = format_date_joined())
+    return render_template('profile.html', pic = url_for('static', filename='me.jpeg'), date = format_date_joined())
 ###
 # The functions below should be applicable to all Flask apps.
 ###
