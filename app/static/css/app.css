@@ -6,7 +6,7 @@ body {
   font-family: "Public Sans", sans-serif;
   border: 1px solid grey;
   border-radius: 5px;
-  width: 25rem;
+  width: 26rem;
   margin: 0 auto;
   text-align: center;
   box-shadow: 1px 1px 2px lightgrey;
@@ -54,6 +54,7 @@ body {
 
 .card-content p {
   margin-top: 1rem;
+  padding: 0px 10px;
 }
 .btn {
   margin-top: 1.87rem;
