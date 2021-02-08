@@ -1,0 +1,26 @@
+{% extends "base.html" %} {% block main %}
+
+<div class="card">
+  <div class="card-header">
+    <div class="card-img">{{pic}}</div>
+    <h2 class="name">Naomi Benjamin</h2>
+    <p>@naomiolivia</p>
+    <p>Kingston, Jamaica</p>
+    <p class="date">{{date}}</p>
+  </div>
+  <div class="card-content">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolorum
+      iusto, placeat dolor, numquam dignissimos tenetur culpa consequuntur cum
+      ipsum aut nemo corrupti aliquam deleniti?
+    </p>
+    <div class="nums">
+      <p>7<br />Posts</p>
+      <p>100<br />Following</p>
+      <p>250<br />Followers</p>
+    </div>
+    <button class="btn" type="button">Follow</button>
+  </div>
+</div>
+
+{% endblock %}
